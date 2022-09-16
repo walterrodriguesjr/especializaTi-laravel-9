@@ -1,18 +1,50 @@
 introdução ao L9 
-1A-curso gratuito de laravel 9 
+
+1-curso gratuito de laravel 9 
 	-explicação do que é o projeto e como sera feito 
 	
-2A-ferramenta para trabalhar com o laravel 9 
+2-ferramenta para trabalhar com o laravel 9 
 	-laravel 9 
 	-docker 
 	-vscode 
 	-extensões específicas 
 
-3A-habiltiar o WSL2 e docker no windows 
+3-habiltiar o WSL2 e docker no windows 
 	-já feita 
 
-4A-instalando o laravel 9 (feat. docker) 
+4-instalando o laravel 9 (feat. docker) 
 	-setup: https://github.com/especializati/setup-docker-laravel/tree/laravel-9-com-php-8
 	
-5A-versionar projetos laravel 9 e armazenar no git 
-	-
+5-versionar projetos laravel 9 e armazenar no git 
+	-criado o repositório do projeto no github e feito o primeiro commit 
+
+6-o que é o laravel - detalhes da estrutura 
+	-laravel é todo um ecosistema para PHP 
+	-explicação de cada função do laravel 
+
+gestão de usuário 
+
+7-criar e usar Controllers no laravel 
+	-explicado sobre o básico de routes, criada route index de UserController 
+	-os comandos artisan precisam ser realizados dentro do container app 
+	-feitos diversos teste com rotas, controllers, e passando id por parametro entre eles 
+
+8-trabalhar com migrations no laravel 
+	-criada a conexão com o banco de dados no dbeaver 
+	-rodada as migration que já vem default no laravel 
+		php artisan migrate
+
+9-trabalhar com Seeders no laravel 
+	-permite criar um novo usuário como ponto de partida, por exemplo 
+		-php artisan make:seeder UsersSeeder
+	-configurado o seeder 'UsersSeeder.php'
+	-rodado o cmd de seed 
+		- php artisan db:seed 
+	
+10-listar registros do banco com o laravel 
+	-configurado o controller UserController para uma variavel receber os dados da model User e em, 
+		seguida, passada como parametro para a view, e la inserida via foreach 
+
+11-listar registro do banco com o laravel 
+	-criada a lógica de show com controller e view, para retornar dados de usuário se ele existir 
+
