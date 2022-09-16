@@ -1,0 +1,18 @@
+introdução ao L9 
+1A-curso gratuito de laravel 9 
+	-explicação do que é o projeto e como sera feito 
+	
+2A-ferramenta para trabalhar com o laravel 9 
+	-laravel 9 
+	-docker 
+	-vscode 
+	-extensões específicas 
+
+3A-habiltiar o WSL2 e docker no windows 
+	-já feita 
+
+4A-instalando o laravel 9 (feat. docker) 
+	-setup: https://github.com/especializati/setup-docker-laravel/tree/laravel-9-com-php-8
+	
+5A-versionar projetos laravel 9 e armazenar no git 
+	-
