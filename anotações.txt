@@ -48,3 +48,35 @@ gestão de usuário
 11-listar registro do banco com o laravel 
 	-criada a lógica de show com controller e view, para retornar dados de usuário se ele existir 
 
+12-trabalhar com templates blade no laravel 
+	-evitar a repetição de códigos 
+	-usar o esquema de criar um layout padrão e, em seguida, usar os @yield e @section 
+
+13-lidar com formulários no laravel 
+	-criado a view de create, as routes de create e store, a function de create e store, e o form para submeter 
+
+14-inserir registros no banco com o laravel 
+	-testadas 2 maneiras de fazer a lógica na function do controller para salvar os dados no banco 
+
+15-validar dados do formulário com o laravel (com form request) 
+	-criado uma class para validação na model primeiramente 
+		php artisan make:request StoreUpdateUserFormRequest
+	-a lógica de validação é definida toda nesta class (no padrão do 'validator')
+	
+16-preparar para editar usuário no laravel 9 
+	-criada a route de put/update, a function em controller de update e as configurações na view 
+
+17-editar e validar usuário no laravel 9 
+	-andamento na configuração de editação, configurado parte da class StoreUpdateUserFormRequest 
+
+18-deletar usuário no laravel 9 
+	-adaptada a view de show do usuario com botão delete dentro de um from, sempre não esquecer de @csrf e 
+		@method('DELETE')
+	-criada a route delete/destroy
+	-criada o método destroy no controller 
+	
+19-filtrar usuários no laravel 9 
+	-criada a adaptação da logica de search no metodo index do controller, criado o input na view também 
+
+20-refatorando o CRUD de usuários no laravel 
+	-
