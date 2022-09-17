@@ -1,0 +1,23 @@
+[33mcommit ec29febfb4090bdfb9e31bcf3363114ba453ca2d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mui-ux/ui-ux[m[33m, [m[1;32mui-ux[m[33m)[m
+Author: walter <walterrjr.86@gmail.com>
+Date:   Sat Sep 17 12:32:11 2022 -0300
+
+    incluída as classes de tailwind no HTML do projeto
+
+[33mcommit b0cedce50a2fdd4e938d5aa261eabf0a847d5626[m
+Author: walter <walterrjr.86@gmail.com>
+Date:   Sat Sep 17 11:38:08 2022 -0300
+
+    CRUD já todo funcional, ainda não refatorado e não adaptado o front-end
+
+[33mcommit 799dd57e7c900e01fb979c9c7e53cef9d896f22a[m
+Author: walter <walterrjr.86@gmail.com>
+Date:   Fri Sep 16 10:34:42 2022 -0300
+
+    aula-11
+
+[33mcommit d5389f2865a4f7f7138ddf33e9ef88cc973e5171[m
+Author: walter <walterrjr.86@gmail.com>
+Date:   Fri Sep 16 08:03:29 2022 -0300
+
+    primeiro commit

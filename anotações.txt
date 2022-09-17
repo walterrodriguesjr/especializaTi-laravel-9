@@ -89,4 +89,5 @@ gestão de usuário
 	-explicando sobre o uso do tailwind 
 	-criada uma nova branch 'ui-ux' para alterações de front-end 
 	-incluídas todas as classes de CSS do tailwind no HTML das view 
-	-
+	-feito o merge, estando na branch master e puxando as alterações da branch ui-ux (git merge ui-ux)
+
