@@ -79,4 +79,14 @@ gestão de usuário
 	-criada a adaptação da logica de search no metodo index do controller, criado o input na view também 
 
 20-refatorando o CRUD de usuários no laravel 
+	-criado uma pasta de 'includes' e de '_partials' onde ficam os alertas e o form, sendo reutilizado nas 
+		diversas views por meio de @includes	
+	-em controller, foi criado uma função __construct, a qual evita ter que instanciar toda vez a model USER, 
+		sendo substituida por $this->model 
+	-as query que fazem o search dentro do controller foram inseridas direto na model, onde deve ser 
+	
+21-usando o tailwind CSS no laravel 9 
+	-explicando sobre o uso do tailwind 
+	-criada uma nova branch 'ui-ux' para alterações de front-end 
+	-incluídas todas as classes de CSS do tailwind no HTML das view 
 	-
