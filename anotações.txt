@@ -91,3 +91,54 @@ gestão de usuário
 	-incluídas todas as classes de CSS do tailwind no HTML das view 
 	-feito o merge, estando na branch master e puxando as alterações da branch ui-ux (git merge ui-ux)
 
+gestão de comentários 
+
+22-criar model, migration e relacionamentos de comentários no laravel 
+	-criando model junto com a migration de 'Comment'
+		php artisan make:model Comment -m 
+	-inserido toda estrutura necessária dos dados na referida model e migration 
+	-feito o relacionamento na migration de 'Comment' para com a tabela de 'Users'
+	-feito também o relacionamento em questão na tabela 'User' de um para muitos e em 'Comment' de 
+		pertence a
+	-rodada a migrate 
+
+23-listando os registros(comentários) no laravel 
+	-criando o controller de 'Comment': (o Admin cria uma pasta Admin e joga o controller nela)
+		php artisan make:controller Admin\\CommentController
+	-criado a pasta comments e dentro a view index dela 
+	-configurada a view index de comments 
+	-configurada a a function index de CommentController
+	-criada a Route de index/get de CommentController 
+	
+24-cadastrar novo registro(comentários) no laravel 
+	-criada a Route de create de CommentController
+	-criada a lógica de create bo controller CommentController
+	-criada a view create de comments 
+	-adaptado o form de _partial de comment 
+	-criada a Route de store de CommentController
+	-criada a lógica de store no controller CommentController
+	
+25-atualizar comentários no laravel 9 
+	-criada a Route de edit Comment 
+	-criada a view de edit comment 
+	-criada a lógica de edit em CommentController 
+	-criada a lógica de update em CommentController
+	-criada a route update Comment
+	
+26-filtrar comentários no laravel 9 
+	-feita a lógica de search semelhante a de usuários, porem diretamente no index controller
+	 de CommentController
+
+27-validação no laravel 9 com form request 
+	-criada uma class de validação para comment, semelhante a 'StoreUpdateUserFormRequest'
+		php artisan make:request StoreUdateCommentRequest
+	-criada a validação de body dentro desta class criada 
+
+28-trabalhar com Eager Loading no laravel 9
+	-inserido o contador de comentarios em index de users, bem como, na model User método 'with'
+
+final 
+
+
+
+	
