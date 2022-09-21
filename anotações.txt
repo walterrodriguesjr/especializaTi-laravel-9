@@ -139,6 +139,46 @@ gestão de comentários
 
 final 
 
+29-paginação no laravel 9 
+	-inserido o metodo 'paginate' na model User, e o método links() e demais logica na index de users 
+	
+30-upload de arquivo no laravel 
+	-é possível armazenar as imagens no google cloud (pesquisar depois) 
+		isso mudando somente o driver no config/filesystems.php 
+	-setar o em .env para o public FILESYSTEM_DISK, para enviar para driver local, public/storage 
+	-criar o diretório storage para destinar as imagens 
+		php artisan storage:link
+	-criado o input file no form de users 
+	-inserido no create e edit form de users, enctype="multipart/form-data"
+	-inserido a validação de image em StoreUpdateUserFormRequest 
+	-inserida a coluna na migration de user 
+	-rodada a nova migration 
+	-criada a lógica para o $request pegar a imagem no controlelr de UserController, store 
+	-criado campo image ma model User 
+	-feita a lógica no controller User tmb para inserir a data e hora como nome da image 
+	
+31-autenticação/registro/recuperar senha no laravel 
+	-instalação do breeze 
+		composer require laravel/breeze --dev
+		php artisan breeze:install 
+	-atendo pq ele apaga as rotas existentes, então precisa copiar elas novamente para o projeto 
+	-instalando o node js no WSL 2 
+		instala o curl que é para baixar conteudos da net via linha de cmd
+			sudo apt-get install curl 
+		instala o NVM 
+			curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+		instala o node via NVM 
+			nvm install --lts
+		instala o npm 
+			npm install 
+			npm run dev
+
+FINALIZADO
+
+		
+		
+		
+	
 
 
 	
